@@ -1,0 +1,27 @@
+.product-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.product-image {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.product-button {
+    background-color: #ff7f00;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-name {
+    color: #333333;
+}
+.product-price {
+    color: #ff7f00;
+}
